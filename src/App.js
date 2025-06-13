@@ -1,10 +1,12 @@
 import Products from "./components/Products";
 import Form from "./components/Form";
+import Timer from "./components/Timer";
 const App = () => {
   return (
     <div>
-      <Form />
-      <Products />
+      <Timer />
+      {/* <Form /> */}
+      {/* <Products /> */}
     </div>
   );
 };
